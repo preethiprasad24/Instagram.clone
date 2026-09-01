@@ -1,0 +1,88 @@
+{
+"post":[
+  {
+    "id": 1,
+    "username": "travel_withme",
+    "profileImage": "./src/assets/dp1.png",
+    "postImage": "./src/assets/postimages.png",
+    "caption": "Exploring beautiful places 🌍✨",
+    "likes": 1245,
+    "comments": 86,
+    "time": "2 hours ago"
+  },
+  {
+    "id": 2,
+    "username": "foodie_world",
+    "profileImage":"./src/assets/dp3.png",
+    "postImage": "./src/assets/postimages2.png",
+    "caption": "Good food, good mood 🍕❤️",
+    "likes": 892,
+    "comments": 42,
+    "time": "4 hours ago"
+  },
+  {
+    "id": 3,
+    "username": "nature_lovers",
+    "profileImage": "./src/assets/dp2.png",
+    "postImage": "./src/assets/postimages3.png",
+    "caption": "Nature is always the best therapy 🌿🌄",
+    "likes": 2156,
+    "comments": 124,
+    "time": "6 hours ago"
+  }],
+
+   
+  "profile":{
+  "id": 1,
+    "username": "travel_withme",
+    "profileImage": "./src/assets/dp1.png"
+   },
+
+"suggestions":[
+  {
+
+   "id": 1,
+    "username": "travel_withme",
+    "profileImage": "./src/assets/dp1.png"
+},
+{
+"id": 2,
+    "username": "foodie_world",
+    "profileImage":"./src/assets/dp2.png"
+    
+    },
+
+{
+    "id": 3,
+    "username": "nature_lovers",
+    "profileImage": "./src/assets/dp3.png"
+    
+  }
+],
+
+"story":[
+ {
+    "id": 1,
+    "username": "travel_withme",
+    "profileImage": "./src/assets/dp1.png",
+    "image": "/st1.png"
+   
+  },
+  {
+    "id": 2,
+    "username": "foodie_world",
+    "profileImage":"./src/assets/dp3.png",
+    "image": "/st2.png"
+   
+  },
+  {
+    "id": 3,
+    "username": "nature_lovers",
+    "profileImage": "./src/assets/dp2.png",
+    "image": "/st3.png"
+  }
+  ]
+}
+
+
+
