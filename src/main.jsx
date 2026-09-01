@@ -33,7 +33,7 @@ const router = createBrowserRouter([
  
 ],
 {
-    basename: "/Instagram.clone",
+    basename: "/Instagram.clone/",
   }
 );
 
