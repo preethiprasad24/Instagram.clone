@@ -1,10 +1,13 @@
 {
   "name": "insta",
-  "private": true,
   "version": "0.0.0",
+  "homepage": "https://preethiprasad24.github.io/instagram.clone",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"

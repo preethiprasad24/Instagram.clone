@@ -31,7 +31,11 @@ const router = createBrowserRouter([
     element: <ViewStory />
   },
  
-]);
+],
+{
+    basename: "/Instagram.clone",
+  }
+);
 
 createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
