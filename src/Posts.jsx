@@ -17,7 +17,7 @@ function Posts() {
 const[posts,setPosts]=useState([]);
 
 useEffect(()=>{
-fetch(`${import.meta.env.BASE_URL}db/db.json`).
+fetch('http://localhost:3000/post').
 then((data)=> data.json()).
 then((data=>setPosts(data))).
 catch(err=>console.log(err))
@@ -32,7 +32,7 @@ catch(err=>console.log(err))
           <div className="my-3" key={post.id}>
 
             <div className="d-flex">  
-            <img className="dp rounded-circle" src={`${import.meta.env.BASE_URL}${post.profileImage}`}alt="profile picture"/>
+            <img className="dp rounded-circle" src={post.profileImage}alt="profile picture"/>
             <h6>{post.username}</h6>
             </div>
 <img className="image" src={post.postImage} alt="posts"/>

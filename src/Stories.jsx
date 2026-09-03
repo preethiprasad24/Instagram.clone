@@ -4,7 +4,7 @@ function stories() {
 
   const[Stories,setStories]=useState([]);
   useEffect(()=>{
-fetch(`${import.meta.env.BASE_URL}db/db.json`).
+fetch('http://localhost:3000/story').
 then(data=>data.json()).
 then(data=>setStories(data)).
 catch(err=>console.log(err))
@@ -16,7 +16,7 @@ catch(err=>console.log(err))
       Stories.map((story)=>(
      <div key={story.id} className="mx-1">
       <div className="gradient-border">
-      <img src={`${import.meta.env.BASE_URL}${story.profileImage}`} alt="dp" className="dp-story rounded-circle"/>
+      <img src={`${import.meta.env.BASE_URL}${story.image.replace(/^\/+/, "")}`} alt="dp" className="dp-story rounded-circle"/>
       </div>
      
      <p className="text-truncate" style={{width:"50px"}}>{story.username}</p>
