@@ -4,7 +4,7 @@
     "id": 1,
     "username": "travel_withme",
     "profileImage": "/Instagram.clone/dp1.png",
-    "postImage": "/instagram.clone/st1.png",
+    "postImage": "/Instagram.clone/st2.png",
     "caption": "Exploring beautiful places 🌍✨",
     "likes": 1245,
     "comments": 86,
@@ -14,7 +14,7 @@
     "id": 2,
     "username": "foodie_world",
     "profileImage":"/Instagram.clone/dp2.png",
-    "postImage": "/instagram.clone/st2.png",
+    "postImage": "/Instagram.clone/st2.png",
     "caption": "Good food, good mood 🍕❤️",
     "likes": 892,
     "comments": 42,
@@ -24,7 +24,7 @@
     "id": 3,
     "username": "nature_lovers",
     "profileImage":"/Instagram.clone/dp3.png",
-    "postImage": "/instagram.clone/st3.png",
+    "postImage": "/Instagram.clone/st3.png",
     "caption": "Nature is always the best therapy 🌿🌄",
     "likes": 2156,
     "comments": 124,
@@ -65,21 +65,21 @@
     "id": 1,
     "username": "travel_withme",
     "profileImage": "/Instagram.clone/dp1.png",
-    "image": "/instagram.clone/st1.png"
+    "image": "/Instagram.clone/st1.png"
    
   },
   {
     "id": 2,
     "username": "foodie_world",
     "profileImage":"/Instagram.clone/dp2.png",
-    "image": "/instagram.clone/st2.png"
+    "image": "/Instagram.clone/st2.png"
    
   },
   {
     "id": 3,
     "username": "nature_lovers",
     "profileImage": "/Instagram.clone/dp3.png",
-    "image":"/instagram.clone/st1.png"
+    "image":"/Instagram.clone/st1.png"
   }
   ]
 }
