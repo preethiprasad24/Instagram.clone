@@ -17,9 +17,9 @@ function Posts() {
 const[posts,setPosts]=useState([]);
 
 useEffect(()=>{
-fetch('http://localhost:3000/post').
+fetch(`${import.meta.env.BASE_URL}db.json`).
 then((data)=> data.json()).
-then((data=>setPosts(data))).
+then((data=>setPosts(data.post))).
 catch(err=>console.log(err))
 
 },[]);

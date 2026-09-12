@@ -7,15 +7,15 @@ const[profile,setProfile]=useState(null);
 const [suggestions,setSuggestions]=useState([]);
 
 useEffect(()=>{
-fetch('http://localhost:3000/profile').
+fetch(`${import.meta.env.BASE_URL}db.json`).
 then (data => data.json()).
-then(data => setProfile(data)).
+then(data => setProfile(data.suggestions)).
 catch(err => console.log(err))
 
 
-fetch('http://localhost:3000/suggestions').
+fetch(`${import.meta.env.BASE_URL}db.json`).
 then (data => data.json()).
-then(data => setSuggestions(data)).
+then(data => setSuggestions(data.suggestions)).
 catch(err => console.log(err))
 
 },[]);
